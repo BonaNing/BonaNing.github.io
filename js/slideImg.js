@@ -35,6 +35,7 @@
             self.setItem(item);
             // 根据dataId值设置图片切换
             self.loadImgBySrc(imgSourceSrc[item]);
+            self.index = item;
         });
         // 设置在哪些情况下自动切换关闭
         $(".slide-item ul").mouseover(function(){
@@ -180,7 +181,8 @@
         switchByItem: function() {
             var self = this;
             // 给小圆点的父级元素ul绑定click事件，当点击的是小圆点时，根据小圆点的dataId来确定切换到哪个图片上
-            $(".slide-item").delegate('li', 'click', function(event) {
+            $(".slide-item").delegate('li', 'click', function(e) {
+                var event = e||window.event;
                 var target = event.target;
                 // 获取当前目标的dataId值
                 var item = target.dataId;
