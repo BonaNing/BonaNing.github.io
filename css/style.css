@@ -1,0 +1,450 @@
+.body{
+    font-family: 'STSong';
+}
+.content{
+    width:960px;
+    margin:0 auto;
+}
+.header{
+    background: #01d1ff;
+    height: 220px;
+    padding-top: 40px;
+}
+.head_portrait{
+    width: 320px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+.head_portrait img{
+    width:130px;
+    height: 130px;
+
+}
+.per_introduce{
+    width: 320px;
+    float: left;
+}
+.per_introduce span{
+    font-weight: bold;
+    padding: 0 3px;
+}
+.per_introduce h2,.contact h2{
+    width: 240px;
+    padding: 5px;
+    color: #fff;
+    text-align: left;
+    background: url('../images/titlebg.png') no-repeat left;
+    background-size: 180px 40px;
+}
+.per_introduce p,.contact p{
+    margin-top: 20px;
+    font-size: 15px;
+    color:#33475f;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.contact{
+    float: left;
+    width: 320px;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.content_one {
+    background: #3f494b;
+    height: 640px;
+}
+.totalbar{
+    height: 50px;
+    padding-top: 10px;
+}
+.education{
+    float: left;
+    margin-left: 40px;
+}
+.experience{
+    float: right;
+    margin-right: 40px;
+}
+.education img,.experience img,.working_skill img,.honour-bar img{
+    float: left;
+    display: inline-block;
+}
+.education p,.experience p,.honour-bar p{
+    float: left;
+    padding-top: 10PX;
+    display: inline-block;
+    color: #6D8088;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.working_skill p{
+    float: left;
+    display: inline-block;
+    color: #6D8088;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.working_skill{
+    float: left;
+    margin-left: 40px;
+}
+.content_two{
+    width: 100%;
+    height: 500px;
+    background: #01d1ff;
+}
+.bottom{
+    height: 300px;
+    background: #3f494b;
+}
+/*教育及经历*/
+.struct_one{
+    position: relative;
+    padding: 20px 0;
+    border: 1px solid #3f494b;
+}
+.threat{
+    width: 3px;
+    height: 91%;
+    background: #01d1ff;
+    position: absolute;
+    left: calc(50% - 1.5px);
+}
+
+.edu-year{
+    width: 80px;
+    height: 80px;
+    background: #01d1ff;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: relative;
+
+
+}
+.edu-year span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 18px;
+    top: 30px;
+    z-index: 999;
+}
+.exp-img{
+    position: absolute;
+    left: 200px;
+    top:calc(50% - 15px);
+
+}
+.exp-img .exp-title{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../images/square.png) no-repeat;
+    background-size: 200px 30px;
+}
+.edu-img{
+    position: absolute;
+    left: 150px;
+    top:calc(50% - 50px);
+}
+.edu-img .edu-title{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../images/square2.png) no-repeat;
+    background-size: 200px 30px;
+}
+.exp-content{
+    color: #6D8088;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+.edu-content{
+    color: #6D8088;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.edu-year .line-right{
+    width: 250px;
+    height: 2px;
+    background: #01d1ff;
+    position: relative;
+    top:39px;
+    left: -30px;
+    z-index:111;
+}
+#move-left{
+    width: 330px;
+    left: -110px;
+    height: 2px;
+    background: #01d1ff;
+    position: relative;
+    top:39px;
+    z-index:111;
+}
+.struct_one .string{
+    width: 3px;
+    height: 180px;
+    background: #01d1ff;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 70px;
+}
+.struct_one .string-small{
+    width: 3px;
+    height: 50px;
+    background: #01d1ff;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: 70px;
+}
+.string-small div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #01d1ff;
+    position: absolute;
+    right: -2px;
+    top: calc(50% - -20px);
+}
+.line-right div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #01d1ff;
+    position: absolute;
+    right: -4px;
+    top: calc(50% - 4px);
+}
+.honour-bar{
+    height: 40px;
+}
+.Personal-honour{
+    margin-left: 40px;
+}
+.detail-left{
+    margin-left: 20px;
+}
+.honour-detail{
+    margin-top: 20px;
+    margin-right: 65px;
+    width: 160px;
+    height: 100px;
+    float: left;
+    z-index: 333;
+    cursor: pointer;
+}
+.honour-detail p{
+    margin-top: 25px;
+    font-weight: bold;
+    border: 1px solid #01d1ff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px 0;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    background: #01d1ff;
+}
+.honour-block{
+    padding-right: 20px;
+    width: 160px;
+    height: 160px;
+    z-index: 999;
+}
+.honour-detail p:hover{
+    color: #ffff00;
+}
+.honour-detail ul{
+    margin-top: 10px;
+    z-index: 444;
+    opacity: 0;
+    list-style: disc;
+    text-align: center;
+    transition: all .7s linear;
+}
+.honour-block:hover ul{
+    opacity: 1;
+}
+.honour-detail ul li{
+    line-height: 20px;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.bottom-left,.bottom-right{
+    width: 350px;
+    float: left;
+}
+.bottom-left{
+    margin-left: 90px;
+}
+.bottom-right{
+    float: right;
+    margin-right: 130px;
+}
+.bottom-title{
+    padding-top: 15px;
+    padding-left: 40px;
+    width: 400px;
+
+}
+.Personal-honour::after,
+.bottom-content::after,
+.bottom-title::after{
+    content: ".";
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.bottom-title img{
+    float: left;
+    display: inline-block;
+}
+.bottom-title p{
+    float: left;
+    padding-top: 23PX;
+    display: inline-block;
+    color: #6D8088;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-content{
+    margin-top: 10px;
+}
+.bottom-content p{
+    height: 30px;
+    line-height: 30px;
+    color: #6D8088;
+    padding-left: 40px;
+    font-weight: bold;
+    width: 105px;
+    float: left;
+}
+.ability {
+    height: 30px;
+    width: 180px;
+    float: right;
+}
+.ability li{
+    float: left;
+    width:8px;
+    height: 8px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+.ability-honest li:nth-child(10) span,
+.ability-cooperation li:nth-child(10) span,
+.ability-communication li:nth-child(10) span,
+.ability-auto li:nth-child(10) span,
+.ability-javascript li:nth-child(10) span,
+.ability-javascript li:nth-child(9) span,
+.ability-javascript li:nth-child(8) span,
+.ability-javascript li:nth-child(7) span,
+.ability-javascript li:nth-child(6) span,
+.ability-javascript li:nth-child(5) span,
+.ability-css li:nth-child(10) span,
+.ability-css li:nth-child(9) span,
+.ability-css li:nth-child(8) span,
+.ability-html li:nth-child(10) span,
+.ability-html li:nth-child(9) span{
+    background:#6D8088;
+}
+
+.ability li span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: block;
+    background: #01d1ff;
+}
+
+
+/*content-two图片轮播部分*/
+.content_two{
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 111;
+}
+.slide-img{
+    position: relative;
+}
+#slide{
+    position: relative;
+    border: 5px solid #ddd;
+    background: url(../slide_imgs/loading.gif) no-repeat center;
+}
+.prev,
+.next{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: #dcdcdc;
+    top: 0;
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.prev:hover,
+.next:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.prev{
+    left: 0px;
+    background: url(../slide_imgs/prev.png) no-repeat center;
+}
+.next{
+    right: 0px;
+    background: url(../slide_imgs/next.png) no-repeat center;
+}
+
+
+.slide-item{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom:0;
+}
+.slide-item ul{
+    height: 100%;
+    list-style: none;
+    margin: 0 auto;
+}
+.slide-item ul li{
+    width: 15px;
+    height: 100%;
+    float: left;
+}
+.slide-item ul li:last-child{
+    margin-right: 0px;
+}
+.slide-item ul li span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: black;
+}
